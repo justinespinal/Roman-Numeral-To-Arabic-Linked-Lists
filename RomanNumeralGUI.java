@@ -7,8 +7,7 @@ import javax.swing.*;
  * @author Justin Espinal
  */
 public class RomanNumeralGUI extends JFrame { //RomanNumeralGUI class. extend JFrame to our new class so it takes on all attributes of JFrame through inheritance
-
-    TextFileInput myFile = new TextFileInput("input.txt"); //take in TextFileInput by creating a new TextFileInput variable
+	
     UnsortedRomanNumeralList unsorted;
     SortedRomanNumeralList sorted;
     /**
